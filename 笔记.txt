@@ -23,12 +23,32 @@ css  media query  css媒体查询 -----  典型网站 jquery.com jq官网
     1.4 less ----> esay-less 把less语法转换为css语法
     
  2  京东首页 html页面 做一个基础的配置 头部设置
-  
-
+   
 
 分析项目基本结构
    从整体入手 
    分析结构  
+
+   头部顶部区域  有点特殊  高度始终不变  宽度会随着手机不同 宽度不同 百分比 + 固定像素px
+      header  固定定位
+        div.warpper
+            a.menu 
+
+            div 
+               i.jd_logo
+               div.line 
+               i.search
+               input 搜索框
+
+            a.login
+
+
+   轮播图区域
+   广告区域
+   商品分类区域
+   京东秒杀区域
+   推荐商品区域
+   商品列表区域
 
 
 
